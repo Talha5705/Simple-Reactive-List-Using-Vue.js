@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- import vue js -->
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+    <div id="first"> {{title}} </div>
+
+    <script>
+        new Vue({
+            el:'#first',
+            data: {
+                title:'Secret baby!'
+            }
+        })
+    </script>
+</body>
+</html>
